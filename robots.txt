@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://kalendarzprogramisty.pl/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Allow access to CSS, JS, and images
+Allow: /styles.css
+Allow: /script.js
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.ico
+Allow: /photos/
+
+# Additional directives
+Allow: /site.webmanifest
